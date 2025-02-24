@@ -6,7 +6,7 @@ function NavBar() {
         <Nav>
 
             <NavLogo>
-                <NavLogoLink to='/'>Hotel Rameira</NavLogoLink>
+                <NavLogoLink to='/'>Hotel Ramos</NavLogoLink>
             </NavLogo>
 
             <NavLista>
