@@ -6,5 +6,6 @@ export const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
         background-color: #E6E6E6;
+        font-family: "Inter", serif;
     } 
 `

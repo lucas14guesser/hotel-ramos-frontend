@@ -25,6 +25,7 @@ export const FooterInfosTxt = styled.p`
     font-style: italic;
     margin-block-start: 0;
     margin-block-end: 0;
+    opacity: .5;
 `
 export const FooterSocialMedia = styled.div`
     display: flex;
@@ -73,4 +74,5 @@ export const ContainerFooterCopy = styled.p`
     font-size: .9rem;
     color: #000000;
     margin: 2rem 0;
+    opacity: .5;
 `

@@ -8,11 +8,11 @@ import Footer from './components/footer/Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
-      <GlobalStyles />
-      <NavBar />
-      <Router />
-      <Footer />
-    </BrowserRouter>
+    <BrowserRouter> {/* Chamando o BrowserRouter */}
+      <GlobalStyles /> {/* Importando os estilos globais */}
+      <NavBar /> {/* Importando a barra de navegação */}
+      <Router /> {/* Importando todas as rotas/páginas do site */}
+      <Footer /> {/* Importando o rodapé */}
+    </BrowserRouter> {/* Fechamento do BrowserRouter */}
   </StrictMode>,
 )

@@ -3,7 +3,7 @@ import { ContainerHome, HomeImg } from './styles/HomeStyles'
 
 function Home() {
   return (
-    <ContainerHome>
+    <ContainerHome> {/* Container img */}
       <HomeImg src="/assets/quarto-hotel.png" alt="Imagem hotel" />
     </ContainerHome>
   )

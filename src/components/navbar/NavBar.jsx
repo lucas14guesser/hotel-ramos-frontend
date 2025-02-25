@@ -3,32 +3,32 @@ import { Nav, NavBtn, NavLista, NavListaItem, NavListaItemLink, NavLogo, NavLogo
 
 function NavBar() {
     return (
-        <Nav>
+        <Nav> {/* Container da NavBar */}
 
-            <NavLogo>
-                <NavLogoLink to='/'>Hotel Ramos</NavLogoLink>
+            <NavLogo> {/* Container da img logo */}
+                <NavLogoLink to='/'>Hotel Ramos</NavLogoLink> {/* Link da HomePage no logo */}
             </NavLogo>
 
-            <NavLista>
-                <NavListaItem>
-                    <NavListaItemLink to='/'>Início</NavListaItemLink>
+            <NavLista> {/* Lista da NavBar */}
+                <NavListaItem> {/* Itens da lista da NavBar */}
+                    <NavListaItemLink to='/'>Início</NavListaItemLink> {/* Link da HomePage */}
                 </NavListaItem>
 
-                <NavListaItem>
-                    <NavListaItemLink to='/explore'>Explore</NavListaItemLink>
+                <NavListaItem> {/* Itens da lista da NavBar*/}
+                    <NavListaItemLink to='/explore'>Explore</NavListaItemLink> {/* Link da ExplorePage */}
                 </NavListaItem>
 
-                <NavListaItem>
-                    <NavListaItemLink to='/quartos'>Quartos</NavListaItemLink>
+                <NavListaItem> {/* Itens da lista da NavBar*/}
+                    <NavListaItemLink to='/quartos'>Quartos</NavListaItemLink> {/* Link da QuartosPage */}
                 </NavListaItem>
 
-                <NavListaItem>
-                    <NavListaItemLink to='/amenidades'>Amenidades</NavListaItemLink>
+                <NavListaItem> {/* Itens da lista da NavBar*/}
+                    <NavListaItemLink to='/amenidades'>Amenidades</NavListaItemLink> {/* Link da AmenidadesPage */}
                 </NavListaItem>
 
             </NavLista>
 
-            <NavBtn>Reserve já</NavBtn>
+            <NavBtn>Reserve já</NavBtn> {/* Botão de reservar quarto */}
         </Nav>
     )
 }

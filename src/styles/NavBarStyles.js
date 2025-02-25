@@ -5,14 +5,13 @@ export const Nav = styled.nav`
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 `
 export const NavLogo = styled.h1`
     font-size: 1.5rem;
     font-weight: 0;
     border-left: 1px solid #000;
     width: 2rem;
-    margin-right: 5rem;
+    margin-left: 20rem;
     padding-left: .5rem;
     text-transform: uppercase;
 `
@@ -26,7 +25,7 @@ export const NavLista = styled.ul`
     align-items: center;
     list-style: none;
     gap: 1.3rem;
-    margin-left: 12rem;
+    margin-left: 21.5rem;
 `
 export const NavListaItem = styled.li`
     font-size: 1.1rem;
@@ -51,6 +50,6 @@ export const NavBtn = styled.button`
     border: 1px solid #000000;
     text-transform: uppercase;
     background-color: #E6E6E6;
-    margin-left: 2rem;
     cursor: pointer;
+    margin-left: 20rem;
 `

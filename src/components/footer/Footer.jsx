@@ -3,50 +3,52 @@ import { ContainerFooter, ContainerFooterCopy, FooterContact, FooterContactBtn, 
 import { FaTwitter, FaTripadvisor, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 function Footer() {
+    
+    {/* Função que retorna o ano */}
     const getDate = () => {
         return new Date().getFullYear();
     }
 
     return (
-        <ContainerFooter>
-            <SubcontainerFooter>
-                <FooterInfos>
-                    <FooterInfosTxt>
+        <ContainerFooter> {/* Container do Footer */}
+            <SubcontainerFooter> {/* SubContainer do Footer */}
+                <FooterInfos> {/* Container de informações do Footer */}
+                    <FooterInfosTxt> {/* Textos de informações do Footer */}
                         AV. Gov. Celso Ramos, 154
-                        <br />
+                        <br /> {/* Quebra de linha */}
                         Porto Belo, SC 12345-678 | 0-800-000-0000
                     </FooterInfosTxt>
 
-                    <FooterSocialMedia>
-                        <FooterSocialMediaLink to='https://x.com/?lang=en' target='_blank'>
-                            <FaTwitter />
+                    <FooterSocialMedia> {/* Container das redes sociais */}
+                        <FooterSocialMediaLink to='https://x.com/?lang=en' target='_blank'> {/* Link da Rede social */}
+                            <FaTwitter /> {/* Ícone da Rede social */}
                         </FooterSocialMediaLink>
 
-                        <FooterSocialMediaLink to='https://www.tripadvisor.com.br/' target='_blank'>
-                            <FaTripadvisor />
+                        <FooterSocialMediaLink to='https://www.tripadvisor.com.br/' target='_blank'> {/* Link da Rede social */}
+                            <FaTripadvisor /> {/* Ícone da Rede social */}
                         </FooterSocialMediaLink>
                         
-                        <FooterSocialMediaLink to='https://www.facebook.com/?locale=pt_BR' target='_blank'>
-                            <FaFacebookF />
+                        <FooterSocialMediaLink to='https://www.facebook.com/?locale=pt_BR' target='_blank'> {/* Link da Rede social */}
+                            <FaFacebookF /> {/* Ícone da Rede social */}
                         </FooterSocialMediaLink>
                         
-                        <FooterSocialMediaLink to='https://www.instagram.com/' target='_blank'>
-                            <FaInstagram />
+                        <FooterSocialMediaLink to='https://www.instagram.com/' target='_blank'> {/* Link da Rede social */}
+                            <FaInstagram /> {/* Ícone da Rede social */}
                         </FooterSocialMediaLink>
                         
                     </FooterSocialMedia>
                 </FooterInfos>
 
-                <FooterContact>
-                    <FooterContactForm>
-                        <FooterInfosTxt>Entre em contato conosco</FooterInfosTxt>
-                        <FooterContactInput type="text" placeholder='Insira seu e-mail aqui' />
-                        <FooterContactBtn>Participar</FooterContactBtn>
+                <FooterContact> {/* Container de contato */}
+                    <FooterContactForm> {/* Formulário de contato */}
+                        <FooterInfosTxt>Entre em contato conosco</FooterInfosTxt> {/* Texto do formulário */}
+                        <FooterContactInput type="text" placeholder='Insira seu e-mail aqui' /> {/* Input de e-mail do contato */}
+                        <FooterContactBtn>Participar</FooterContactBtn> {/* Botão de submit do formulário */}
                     </FooterContactForm>
                 </FooterContact>
             </SubcontainerFooter>
 
-            <ContainerFooterCopy> &copy; {getDate()} por Lucas Guesser</ContainerFooterCopy>
+            <ContainerFooterCopy> &copy; {getDate()} por Lucas Guesser</ContainerFooterCopy> {/* Container Copyright do site */}
         </ContainerFooter>
     )
 }
