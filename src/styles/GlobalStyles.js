@@ -7,5 +7,7 @@ export const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         background-color: #E6E6E6;
         font-family: "Inter", serif;
+        overflow-x: hidden;
+	    overflow-y: auto;
     } 
 `

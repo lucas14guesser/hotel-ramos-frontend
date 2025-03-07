@@ -1,9 +1,6 @@
-import styled from "styled-components";
-
-export const ContainerHome = styled.div`
+import{d as t,j as i}from"./styled-components.browser.esm-BNWIvhS-.js";const m=t.div`
     width: 100%;
-`
-export const HomeImg = styled.img`
+`,e=t.img`
     width: 100%;
     height: 50rem;
 
@@ -23,4 +20,4 @@ export const HomeImg = styled.img`
     @media (min-width: 801px) and (max-width: 1250px) {
         height: 30rem;
     }
-`
+`;function d(){return i.jsxs(m,{children:[" ",i.jsx(e,{src:"/assets/quarto-hotel.png",alt:"Imagem hotel"})]})}export{d as H};

@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-export const ContainerAmenidades = styled.div`
+import{d,j as i}from"./styled-components.browser.esm-BNWIvhS-.js";const t=d.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,8 +12,7 @@ export const ContainerAmenidades = styled.div`
     @media (min-width: 431px) and (max-width: 600px) {
         margin: 2rem 1rem 0rem 1rem;
     }
-`
-export const TituloAmenidades = styled.p`
+`,n=d.p`
     font-size: 1.2rem;
     opacity: .5;
     font-style: italic;
@@ -37,8 +34,7 @@ export const TituloAmenidades = styled.p`
     @media (min-width: 1251px) and (max-width: 1600px) {
         width: 66%;
     }
-`
-export const SubcontainerAmenidades = styled.div`
+`,a=d.div`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,8 +54,7 @@ export const SubcontainerAmenidades = styled.div`
     @media (min-width: 1251px) and (max-width: 1600px) {
         width: 66%;
     }
-`
-export const TxtAmenidades = styled.p`
+`,r=d.p`
     font-size: 1.2rem;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -94,8 +89,7 @@ export const TxtAmenidades = styled.p`
         margin-left: 0;
         width: 30%;
     }
-`
-export const ListaAmenidades = styled.ul`
+`,x=d.ul`
     margin-block-start: 0;
     margin-block-end: 0;
     margin-right: 17rem;
@@ -115,8 +109,7 @@ export const ListaAmenidades = styled.ul`
         margin: 0;
         width: 80%;
     }
-`
-export const ItemListaAmenidades = styled.li`
+`,e=d.li`
     opacity: .5;
     font-size: 1.2rem;
 
@@ -139,8 +132,7 @@ export const ItemListaAmenidades = styled.li`
     @media (min-width: 1251px) and (max-width: 1600px) {
         font-size: 1rem;
     }
-`
-export const AmenidadesImg = styled.img`
+`,m=d.img`
     width: 20rem;
     height: 10rem;
 
@@ -160,4 +152,4 @@ export const AmenidadesImg = styled.img`
     @media (min-width: 1251px) and (max-width: 1600px) {
         width: 28rem;
     }
-`
+`;function h(){return i.jsxs(t,{children:[" ",i.jsx(n,{children:"Amenidades e Serviços"})," ",i.jsxs(a,{children:[" ",i.jsx(m,{src:"/assets/area-lazer 1.png",alt:"Foto da área de lazer"}),i.jsx(r,{children:"Venha curtir com sua família no Hotel Ramos. Temos muitas amenidades e serviços para deixar sua experiência incrível e extremamente agradável."})]}),i.jsxs(a,{children:[" ",i.jsxs(x,{children:[i.jsx(e,{children:"Restaurante premiado"}),i.jsx(e,{children:"Spa e piscina coberta"}),i.jsx(e,{children:"Academia e personal trainning"}),i.jsx(e,{children:"Salas de reunião"}),i.jsx(e,{children:"Serviço de concierge"}),i.jsx(e,{children:"Wi-fi gratuito"}),i.jsx(e,{children:"Quartos com varandas privadas"}),i.jsx(e,{children:"Sweeping city views"}),i.jsx(e,{children:"Coleção de belas artes"}),i.jsx(e,{children:"Água mineral - contemplar"}),i.jsx(e,{children:"Animais de estimação permitidos"})]}),i.jsx(m,{src:"/assets/area-piscina 2.png",alt:"Foto da área da piscina"})]})]})}export{h as A};

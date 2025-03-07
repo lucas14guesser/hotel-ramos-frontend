@@ -1,13 +1,24 @@
-import React from 'react'
-import { Nav, NavBtn, NavLista, NavListaItem, NavListaItemLink, NavLogo, NavLogoLink } from '../../styles/NavBarStyles'
+import React, { useState } from 'react'
+import { MenuToggle, Nav, NavBtn, NavLista, NavListaItem, NavListaItemLink, NavLogo, NavLogoLink } from '../../styles/NavBarStyles'
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function NavBar() {
+    const [menuAberto, setMenuAberto] = useState(false);
+
+    const handleMenuCLick = () => {
+        setMenuAberto(!menuAberto)
+    }
+
     return (
         <Nav> {/* Container da NavBar */}
 
             <NavLogo> {/* Container da img logo */}
                 <NavLogoLink to='/'>Hotel Ramos</NavLogoLink> {/* Link da HomePage no logo */}
             </NavLogo>
+
+            <MenuToggle onClick={() => handleMenuCLick()}>
+                <GiHamburgerMenu size={30} />
+            </MenuToggle>
 
             <NavLista> {/* Lista da NavBar */}
                 <NavListaItem> {/* Itens da lista da NavBar */}

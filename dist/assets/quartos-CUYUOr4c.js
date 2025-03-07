@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-export const ContainerQuartos = styled.div`
+import{d as t,j as i}from"./styled-components.browser.esm-BNWIvhS-.js";const x=t.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,8 +11,7 @@ export const ContainerQuartos = styled.div`
     @media (min-width: 431px) and (max-width: 599px) {
         margin: 2rem 1rem 0rem 1rem;
     }
-`
-export const TituloQuartos = styled.p`
+`,h=t.p`
     font-size: 1.2rem;
     opacity: .5;
     font-style: italic;
@@ -35,8 +32,7 @@ export const TituloQuartos = styled.p`
      @media (min-width: 1251px) and (max-width: 1600px) {
         width: 66%;
     }
-`
-export const SubcontainerQuartos = styled.div`
+`,d=t.div`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,8 +55,7 @@ export const SubcontainerQuartos = styled.div`
         width: 66%;
         gap: 2rem;
     }
-`
-export const TxtQuartos = styled.p`
+`,e=t.p`
     margin-block-start: 0;
     margin-block-end: 0;
     opacity: .5;
@@ -81,23 +76,20 @@ export const TxtQuartos = styled.p`
     @media (min-width: 1251px) and (max-width: 1600px) {
         font-size: 1rem;
     }
-`
-export const ContainerTxtQuartos = styled.div`
+`,n=t.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 30%;
 
-    > ${TxtQuartos} + ${TxtQuartos} {
+    > ${e} + ${e} {
         margin-top: 1rem;
     }
-`
-export const ListaQuartos = styled.ul`
+`,r=t.ul`
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 25px;
-`
-export const ItemListaQuartos = styled.li`
+`,a=t.li`
     opacity: .5;
 
     @media (min-width: 360px) and (max-width: 430px){
@@ -115,15 +107,13 @@ export const ItemListaQuartos = styled.li`
     @media (min-width: 1251px) and (max-width: 1600px) {
         font-size: 1rem;
     }
-`
-export const ContainerPrecoQuartos = styled.div`
+`,s=t.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30%;
     gap: 1rem;
-`
-export const BotaoMaisInfoQuartos = styled.button`
+`,m=t.button`
     width: 185px;
     padding: .7rem;
     background: #000000;
@@ -155,8 +145,7 @@ export const BotaoMaisInfoQuartos = styled.button`
         padding: .7rem;
         font-size: 1rem;
     }
-`
-export const QuartoImg = styled.img`
+`,o=t.img`
     @media (min-width: 600px) and (max-width: 800px) {
         width: 10rem;
     }
@@ -168,4 +157,4 @@ export const QuartoImg = styled.img`
     @media (min-width: 1251px) and (max-width: 1600px) {
         width: 15rem;
     }
-`
+`;function c(){return i.jsxs(x,{children:[" ",i.jsx(h,{children:"Nossas Acomodações"})," ",i.jsxs(d,{children:[" ",i.jsx(o,{src:"/assets/quarto-casal-quartospg.png",alt:"Foto do quarto de casal"}),i.jsxs(n,{children:["  ",i.jsx(e,{style:{opacity:"1",fontSize:"1.2rem"},children:"Quarto de Casal"}),i.jsx(e,{children:"Nossos quartos de casal oferecem vistas panorâmicas do mar."}),i.jsxs(r,{children:[i.jsx(a,{children:"Tamanho: 150 m²"}),i.jsx(a,{children:"Camas: 1 Casal"})]})]}),i.jsxs(s,{children:[" ",i.jsx(e,{children:"A partir de:"}),i.jsx(e,{style:{opacity:"1",fontSize:"1.2rem",fontWeight:"700"},children:"R$800,00"}),i.jsx(m,{children:"Mais Informações"})]})]}),i.jsxs(d,{children:[" ",i.jsx(o,{src:"/assets/quarto-de-luxoquartospg.png",alt:"Foto do quarto de luxo"}),i.jsxs(n,{children:["  ",i.jsx(e,{style:{opacity:"1",fontSize:"1.2rem"},children:"Quarto de Luxo"}),i.jsx(e,{children:"Nossos quartos de luxo oferecem vistas panorâmicas do mar e um conforto incrível."}),i.jsxs(r,{children:[i.jsx(a,{children:"Tamanho: 340 m²"}),i.jsx(a,{children:"Camas: 3 Casal"})]})]}),i.jsxs(s,{children:[" ",i.jsx(e,{children:"A partir de:"}),i.jsx(e,{style:{opacity:"1",fontSize:"1.2rem",fontWeight:"700"},children:"R$2500,00"}),i.jsx(m,{children:"Mais Informações"})]})]}),i.jsxs(d,{children:[" ",i.jsx(o,{src:"/assets/quarto-solteiroquartospg.png",alt:"Foto do quarto de solteiro"}),i.jsxs(n,{children:["  ",i.jsx(e,{style:{opacity:"1",fontSize:"1.2rem"},children:"Quarto de Solteiro"}),i.jsx(e,{children:"Nossos quartos de solteiro oferecem uma estadia tranquila com grande conforto."}),i.jsxs(r,{children:[i.jsx(a,{children:"Tamanho: 80 m²"}),i.jsx(a,{children:"Camas: 1 Solteiro"})]})]}),i.jsxs(s,{children:[" ",i.jsx(e,{children:"A partir de:"}),i.jsx(e,{style:{opacity:"1",fontSize:"1.2rem",fontWeight:"700"},children:"R$400,00"}),i.jsx(m,{children:"Mais Informações"})]})]})]})}export{c as Q};

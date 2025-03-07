@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-export const ContainerExplore = styled.div`
+import{d as e,j as i}from"./styled-components.browser.esm-BNWIvhS-.js";const t=e.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,8 +11,7 @@ export const ContainerExplore = styled.div`
     @media (min-width: 431px) and (max-width: 599px) {
         margin: 2rem 1rem 0 1rem;
     }
-`
-export const ExploreImgTxt = styled.div`
+`,d=e.div`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,8 +32,7 @@ export const ExploreImgTxt = styled.div`
         width: 66%;
         gap: 1rem;
     }
-`
-export const ExploreTxt = styled.p`
+`,r=e.p`
     font-size: 1.1rem;
     font-style: italic;
     opacity: .5;
@@ -52,8 +48,7 @@ export const ExploreTxt = styled.p`
     @media (min-width: 1251px) and (max-width: 1600px) {
         font-size: 1rem;
     }
-`
-export const ExploreImgs = styled.div`
+`,m=e.div`
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,8 +69,7 @@ export const ExploreImgs = styled.div`
         width: 66%;
         gap: 2rem;
     }
-`
-export const ExploreImg = styled.img`
+`,a=e.img`
     @media (min-width: 360px) and (max-width: 430px){
         height: 10rem;
         margin: .8rem .8rem .8rem 0;
@@ -99,4 +93,4 @@ export const ExploreImg = styled.img`
         width: 21rem;
         height: 9rem;
     }
-`
+`;function x(){return i.jsxs(t,{children:[i.jsxs(d,{children:[" ",i.jsx(a,{src:"/assets/almoço-frutos-do-mar 1.png",alt:"Imagem almoço frutos do mar"}),i.jsx(r,{children:"No Hotel Rameira, possuímos quartos de incrível qualidade além de almoço e café saborosos. Venha já conhecer. Entre em contato via email ou ligue para o número 0-800-000-0000."})]}),i.jsxs(m,{children:[" ",i.jsx(a,{src:"/assets/area-piscina 1.png",alt:"Foto da área da piscina"}),i.jsx(a,{src:"/assets/quarto-de-luxo 1.png",alt:"Foto do quarto de luxo"})]}),i.jsxs(m,{children:[" ",i.jsx(a,{src:"/assets/quarto-casal 1.png",alt:"Foto do quarto de casal"}),i.jsx(a,{src:"/assets/café-hotel 1.png",alt:"Foto do café do hotel"})]})]})}export{x as E};
