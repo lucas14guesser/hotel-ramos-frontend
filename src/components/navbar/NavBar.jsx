@@ -1,47 +1,47 @@
-import React, { useState } from 'react'
-import { MenuToggle, Nav, NavBtn, NavLista, NavListaItem, NavListaItemLink, NavLogo, NavLogoLink } from '../../styles/NavBarStyles'
+import React, { useState } from "react";
+import {
+    MenuToggle, Nav, NavBtn, NavLista, NavListaItem,
+    NavListaItemLink, NavLogo, NavLogoLink
+} from "../../styles/NavBarStyles";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function NavBar() {
     const [menuAberto, setMenuAberto] = useState(false);
 
-    const handleMenuCLick = () => {
-        setMenuAberto(!menuAberto)
-    }
+    const handleMenuClick = () => {
+        setMenuAberto(!menuAberto);
+    };
 
     return (
         <Nav> {/* Container da NavBar */}
-
             <NavLogo> {/* Container da img logo */}
-                <NavLogoLink to='/'>Hotel Ramos</NavLogoLink> {/* Link da HomePage no logo */}
+                <NavLogoLink to="/">Hotel Ramos</NavLogoLink> {/* Link da HomePage no logo */}
             </NavLogo>
 
-            <MenuToggle onClick={() => handleMenuCLick()}>
+            {/* Botão de menu hamburguer */}
+            <MenuToggle onClick={handleMenuClick}>
                 <GiHamburgerMenu size={30} />
             </MenuToggle>
 
-            <NavLista> {/* Lista da NavBar */}
-                <NavListaItem> {/* Itens da lista da NavBar */}
-                    <NavListaItemLink to='/'>Início</NavListaItemLink> {/* Link da HomePage */}
+            {/* Lista de navegação */}
+            <NavLista menuAberto={menuAberto}>
+                <NavListaItem>
+                    <NavListaItemLink to="/">Início</NavListaItemLink>
                 </NavListaItem>
-
-                <NavListaItem> {/* Itens da lista da NavBar*/}
-                    <NavListaItemLink to='/explore'>Explore</NavListaItemLink> {/* Link da ExplorePage */}
+                <NavListaItem>
+                    <NavListaItemLink to="/explore">Explore</NavListaItemLink>
                 </NavListaItem>
-
-                <NavListaItem> {/* Itens da lista da NavBar*/}
-                    <NavListaItemLink to='/quartos'>Quartos</NavListaItemLink> {/* Link da QuartosPage */}
+                <NavListaItem>
+                    <NavListaItemLink to="/quartos">Quartos</NavListaItemLink>
                 </NavListaItem>
-
-                <NavListaItem> {/* Itens da lista da NavBar*/}
-                    <NavListaItemLink to='/amenidades'>Amenidades</NavListaItemLink> {/* Link da AmenidadesPage */}
+                <NavListaItem>
+                    <NavListaItemLink to="/amenidades">Amenidades</NavListaItemLink>
                 </NavListaItem>
-
             </NavLista>
 
             <NavBtn>Reserve já</NavBtn> {/* Botão de reservar quarto */}
         </Nav>
-    )
+    );
 }
 
-export default NavBar
+export default NavBar;

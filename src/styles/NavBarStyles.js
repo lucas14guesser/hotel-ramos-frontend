@@ -54,16 +54,17 @@ export const NavLista = styled.ul`
     margin-left: 21.5rem;
 
     @media (max-width: 430px) {
-        display: none; 
+        display: ${({ menuAberto }) => (menuAberto ? "flex" : "none")}; 
         flex-direction: column;
         position: absolute;
         top: 60px;
-        left: -43%;
-        width: 100%;
+        left: 70px;
+        width: 50%;
         background: white;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         padding: 1rem;
         text-align: left;
+        margin-left: 0;
     }
 
     @media (min-width: 431px) and (max-width: 599px) {
